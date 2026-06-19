@@ -150,13 +150,142 @@ An **Operating System (OS)** is system software that acts as a bridge between th
 
 ---
 
-## 🧠 Summary (Exam Revision)
 
-- OS = Interface + Resource Manager + Platform  
-- Goals → Convenience + Efficiency  
-- Key Functions → Process, Memory, I/O, File, Network, Security  
-- Batch OS → Jobs grouped for efficiency  
-- Spooling → Handles slow devices  
-- Multiprogramming → Keeps CPU busy  
+
+## ⏱️ Multitasking / Time Sharing OS
+
+> 💡 Extension of multiprogramming
+
+### 🔹 Key Points
+
+* Allows multiple users simultaneously
+* CPU switches rapidly between tasks
+* Gives illusion of dedicated system
+
+⚠️ **Note:**
+
+* Requires multiprogramming
+* Not true parallelism
+
+---
+
+## 🧠 Multiprocessing OS
+
+> 💡 Uses **multiple CPUs** for execution
+
+### 🔹 Features
+
+* Multiple CPUs share:
+
+  * Memory
+  * Bus
+  * Devices
+
+* Achieves **true parallel execution**
+
+### 📌 Applications
+
+* AI systems
+* Image processing
+* Weather forecasting
+
+---
+
+## ⚖️ Types of Multiprocessing
+
+| Feature       | Symmetric | Asymmetric |
+| ------------- | --------- | ---------- |
+| Task Handling | Any CPU   | Fixed role |
+| Complexity    | Simple    | Complex    |
+| Performance   | Balanced  | Varies     |
+
+---
+
+## 🔄 Multiprogramming vs Multiprocessing
+
+| Feature    | Multiprogramming | Multiprocessing |
+| ---------- | ---------------- | --------------- |
+| CPU        | Single           | Multiple        |
+| Execution  | Simulated        | Parallel        |
+| Complexity | Low              | High            |
+
+---
+
+## ⏱️ Real-Time OS
+
+> 💡 System with **strict time constraints**
+
+### 🔹 Key Points
+
+* Must respond within fixed time
+* Failure if deadline missed
+
+### 📌 Examples
+
+* Air traffic control
+* Reservation systems
+
+---
+
+## 🔴 Hard Real-Time OS
+
+* Must meet deadlines strictly
+* Failure if delayed
+
+📌 Example: Airbag system
+
+---
+
+## 🟡 Soft Real-Time OS
+
+* Deadlines may be missed
+* Slight delay acceptable
+
+📌 Example: Mobile apps, games
+
+---
+
+## ⚖️ Hard vs Soft Real-Time OS
+
+| Feature     | Hard RTOS | Soft RTOS |
+| ----------- | --------- | --------- |
+| Deadline    | Strict    | Flexible  |
+| Reliability | Very high | Moderate  |
+| Cost        | High      | Low       |
+
+---
+
+## 🌐 Distributed OS
+
+> 💡 Collection of independent systems working together
+
+### 🔹 Features
+
+* Multiple nodes connected via network
+* Share resources & tasks
+* Each node has part of OS
+
+---
+
+### 🎯 Why Distributed OS?
+
+* Resource sharing
+* Faster computation
+* Reliability
+* Communication
+
+---
+
+## 🧠 Final Revision
+
+> ⚡ **One Shot Summary**
+
+* OS → Intermediary + Resource Manager + Platform
+* Batch → Group jobs
+* Spooling → Avoid CPU waiting
+* Multiprogramming → CPU always busy
+* Multiprocessing → Multiple CPUs
+* RTOS → Time-critical systems
+* Distributed → Network-based OS
 
 ---
